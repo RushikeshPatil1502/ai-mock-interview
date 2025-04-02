@@ -1,7 +1,7 @@
 import { serial, text, varchar } from "drizzle-orm/pg-core";
 import { pgTable } from "drizzle-orm/pg-core";
 
-export const MockInterview = pgTable('mockInterview', {
+export const MockInterview = pgTable('MockInterview', {
     id: serial('id').primaryKey(),
     jsonMockResp: text('jsonMockResp').notNull(),
     jobPosition: varchar('jobPosition').notNull(),
@@ -12,7 +12,7 @@ export const MockInterview = pgTable('mockInterview', {
     mockId: varchar('mockId').notNull()
 });
 
-export const Question = pgTable('question', {
+export const Question = pgTable('Question', {
     id: serial('id').primaryKey(),
     MockQuestionJsonResp: text('MockQuestionJsonResp').notNull(),
     jobPosition: varchar('jobPosition').notNull(),
@@ -27,7 +27,7 @@ export const Question = pgTable('question', {
 
 
 
-export const UserAnswer = pgTable('userAnswer',{
+export const UserAnswer = pgTable('UserAnswer',{
     id: serial('id').primaryKey(),
     mockIdRef: varchar('mockId').notNull(),
     question: varchar('question').notNull(),
@@ -39,7 +39,7 @@ export const UserAnswer = pgTable('userAnswer',{
     createdAt: varchar('createdAt')
 })
 
-export const Newsletter = pgTable('newsletter',{
+export const Newsletter = pgTable('Newsletter',{
     id: serial('id').primaryKey(),
     newName: varchar('newName'),
     newEmail: varchar('newEmail'),
