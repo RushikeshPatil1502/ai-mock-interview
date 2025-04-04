@@ -65,7 +65,7 @@ const page = () => {
             <div className="flex flex-wrap justify-center mt-8">
               <div className="w-full md:w-1/3 px-4 py-8">
                 <div className="bg-blue-100 rounded-lg p-6 shadow-md">
-                  <h3 className="text-2xl font-semibold text-black-600">AI Mock Interviews</h3>
+                  <h3 className="text-2xl font-semibold text-black-600">MockMate</h3>
                   <p className="mt-2 text-gray-600">Experience realistic interview scenarios with our advanced AI.</p>
                 </div>
               </div>
@@ -117,7 +117,7 @@ const page = () => {
       </main>
 
       <footer className="py-8 bg-black text-white text-center">
-        <p>© 2024 AI Mock Interview. All rights reserved.</p>
+        <p>© 2024 MockMate. All rights reserved.</p>
       </footer>
     </div>
   )

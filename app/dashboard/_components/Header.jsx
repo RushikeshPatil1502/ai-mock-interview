@@ -46,7 +46,7 @@ const Header = ({ logo }) => {
               Dashboard
             </li>
           </Link>
-          {/* <Link href="/dashboard/question">
+          <Link href="/dashboard/question">
           <li
             className={`hover:text-black hover:font-bold transition-all cursor-pointer ${
               path == "/dashboard/question" && "text-black font-bold"
@@ -54,18 +54,8 @@ const Header = ({ logo }) => {
           >
             Questions
           </li>
-          </Link> */}
+          </Link>
           
-          {/* <Link href="/dashboard/upgrade">
-            <li
-              className={`hover:text-black hover:font-bold transition-all cursor-pointer ${
-                path == "/dashboard/upgrade" && "text-black font-bold"
-              }`}
-            >
-              Upgrade
-            </li>
-          </Link> */}
-
           <Link href="/dashboard/howit">
             <li
               className={`hover:text-black hover:font-bold transition-all cursor-pointer ${
