@@ -23,7 +23,7 @@ const page = () => {
         {/* Header Section */}
         <header className="w-full py-8 bg-gray-100 shadow-md">
           <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
-            <h1 className="text-3xl font-bold text-primary">AI Mock Interview</h1>
+            <h1 className="text-3xl font-bold text-primary">MockMate</h1>
             <nav className="flex flex-col sm:flex-row flex-wrap items-center justify-between mt-4 md:mt-0 space-y-4 sm:space-y-0 sm:space-x-4">
               
               <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0">
@@ -95,7 +95,7 @@ const page = () => {
                   <p className="text-gray-600">
                     "The AI mock interviews were incredibly helpful. I felt much more confident going into my real interview."
                   </p>
-                  <h4 className="mt-4 text-lg font-semibold text-blue-600">- Alex Johnson</h4>
+                  <h4 className="mt-4 text-lg font-semibold text-blue-600">- Person 1</h4>
                 </div>
               </div>
               <div className="w-full md:w-1/2 px-4 py-8">
@@ -103,7 +103,7 @@ const page = () => {
                   <p className="text-gray-600">
                     "The feedback was spot on and helped me improve my answers. Highly recommend this service!"
                   </p>
-                  <h4 className="mt-4 text-lg font-semibold text-blue-600">- Sarah Williams</h4>
+                  <h4 className="mt-4 text-lg font-semibold text-blue-600">- Person 2 </h4>
                 </div>
               </div>
             </div>
